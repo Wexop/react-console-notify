@@ -41,7 +41,7 @@ import ConsoleNotifier from "react-console-notify";
 function App() {
   return (
     <>
-      <ConsoleNotifier acceptedEnvs={ ["development"] }/>
+      <ConsoleNotifier enabled/>
       {
         /* your app content */
       }
@@ -59,7 +59,7 @@ function App() {
 | `onNotify`          | `(type: LogType, ...args: unknown[]) => void` | `undefined`                                 | Custom callback called on each intercepted log. Overrides default notification behavior. |
 | `colorMap`          | `Record<LogType, string>`                     | See below                                   | Allows custom colors per log type.                                                       |
 | `children`          | `ReactNode`                                   | `undefined`                                 | Optional children to render within the same tree.                                        |
-| `acceptedEnvs`      | `string[]`                                    | `["development"]`                           | Environments where logs should be intercepted.                                           |
+| `enabled`           | `boolean`                                     | `true`                                      | Enable notifications or not. This can be useful to disable on production environment.    |
 | `position`          | `"top-right"` \| `"top-left"`                 | `"top-right"`                               | Position of the notification container.                                                  |
 | `duration`          | `number \| null`                              | `5000` (ms)                                 | Time before a log disappears. Set to `null` for persistent logs.                         |
 | `backgroundOpacity` | `number` (`0` → transparent, `1` → solid)     | `0.5`                                       | Background transparency of the notification.                                             |

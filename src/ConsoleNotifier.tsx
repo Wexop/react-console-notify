@@ -12,7 +12,7 @@ type ConsoleNotifierProps = {
   onNotify?: ( type: LogType, ...args: unknown[] ) => void;
   colorMap?: Record<LogType, string>;
   children?: ReactNode;
-  acceptedEnvs?: string[];
+  enabled?: boolean;
   position?: Position;
   duration?: number | null;
   backgroundOpacity?: number;
@@ -37,7 +37,7 @@ export default function ConsoleNotifier( {
     info: "#719dcb",
     debug: "#61b96e",
   },
-  acceptedEnvs = ["development"],
+  enabled = true,
   position = "top-right",
   duration = 5000,
   backgroundOpacity = 0.5,
@@ -75,7 +75,7 @@ export default function ConsoleNotifier( {
   }
 
   useEffect( () => {
-    if ( !acceptedEnvs.includes( process.env.NODE_ENV as string ) ) return
+    if ( !enabled ) return
 
     const originalMethods: Partial<Record<LogType, ( ...args: unknown[] ) => void>> = {}
 
@@ -108,6 +108,8 @@ export default function ConsoleNotifier( {
       el.scrollTop = el.scrollHeight
     }
   }, [logs] )
+
+  if ( !enabled ) return null
 
   return <>
     <div className={ "scrollable" } ref={ containerRef } style={ {
