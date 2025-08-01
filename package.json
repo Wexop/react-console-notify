@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "style": "dist/style.css",
+  "style": "dist/index.css",
   "homepage": "https://wexop.github.io/react-console-notify",
   "repository": {
     "type": "git",
