@@ -1,9 +1,22 @@
 {
   "name": "react-console-notify",
   "version": "0.1.0",
+  "description": "A small React package that shows real-time notifications for console logs (log, warn, error, etc.) during development",
+  "author": "Wexop",
+  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wexop/react-console-notify.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
   "files": [
     "dist"
   ],
@@ -12,15 +25,6 @@
     "build": "tsup src/index.ts --dts --format esm,cjs --external react,react-dom",
     "dev:example": "vite --config vite.config.ts"
   },
-  "keywords": [
-    "log",
-    "notify",
-    "console",
-    "react"
-  ],
-  "author": "Wexop",
-  "license": "MIT",
-  "description": "",
   "peerDependencies": {
     "react": "^18",
     "react-dom": "^18"
@@ -35,5 +39,13 @@
     "tsup": "^8.5.0",
     "typescript": "^5.9.2",
     "vite": "^7.0.6"
-  }
+  },
+  "keywords": [
+    "log",
+    "notify",
+    "console",
+    "react",
+    "notification",
+    "debug"
+  ]
 }
