@@ -7,6 +7,7 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "homepage": "https://wexop.github.io/react-console-notify",
   "repository": {
     "type": "git",
     "url": "https://github.com/Wexop/react-console-notify.git"
@@ -23,7 +24,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsup src/index.ts --dts --format esm,cjs --external react,react-dom",
-    "dev:example": "vite --config vite.config.ts"
+    "dev:example": "vite --config vite.config.ts",
+    "build:example": "vite build --config example/vite.config.ts",
+    "deploy": "npm run build:example && gh-pages -d example/dist"
   },
   "peerDependencies": {
     "react": "^18",
@@ -34,6 +37,7 @@
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^4.7.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tsup": "^8.5.0",
