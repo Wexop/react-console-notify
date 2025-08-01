@@ -1,1 +1,4 @@
-export * from "./ConsoleNotifier"
+import ConsoleNotifier from "./ConsoleNotifier"
+
+
+export default ConsoleNotifier
