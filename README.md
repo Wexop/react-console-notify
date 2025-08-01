@@ -10,7 +10,9 @@ you want to track.
 ![license](https://img.shields.io/npm/l/react-console-notify)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Wexop/react-console-notify)
 
-![Alt text](https://i.imgur.com/hktWMla.png)
+**[Live demo here]([GitHub Repo stars](https://img.shields.io/github/stars/tonpseudo/react-console-notify))**
+
+![Notifications](https://i.imgur.com/hktWMla.png)
 
 ## Installation
 
