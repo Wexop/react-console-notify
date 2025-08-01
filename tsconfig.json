@@ -13,9 +13,6 @@
     "paths": {
       "react-console-notify": [
         "src"
-      ],
-      "react-console-notify/style": [
-        "src/style.css"
       ]
     }
   },
