@@ -95,7 +95,7 @@ export default function App() {
         Debug (console.debug)
       </button>
 
-      <ConsoleNotifier/>
+      <ConsoleNotifier containerHeight={ "100vh" }/>
     </div>
   )
 }

@@ -1,10 +1,16 @@
-# React ConsoleNotifier
+# React Console Notifier
 
 A small React package that shows real-time notifications for console logs (`log`, `warn`, `error`, etc.) during
 development.
 
 It keeps the original console behavior, so logs still appear in the browser console. You can configure which log types
 you want to track.
+
+![npm](https://img.shields.io/npm/v/react-console-notify)
+![license](https://img.shields.io/npm/l/react-console-notify)
+![GitHub Repo stars](https://img.shields.io/github/stars/Wexop/react-console-notify)
+
+![Alt text](https://i.imgur.com/hktWMla.png)
 
 ## Installation
 
