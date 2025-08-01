@@ -1,6 +1,6 @@
 {
   "name": "react-console-notify",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A small React package that shows real-time notifications for console logs (log, warn, error, etc.) during development",
   "author": "Wexop",
   "license": "MIT",
