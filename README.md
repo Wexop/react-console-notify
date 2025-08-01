@@ -7,8 +7,11 @@ It keeps the original console behavior, so logs still appear in the browser cons
 you want to track.
 
 ![npm](https://img.shields.io/npm/v/react-console-notify)
+![npm downloads](https://img.shields.io/npm/dt/react-console-notify)
 ![license](https://img.shields.io/npm/l/react-console-notify)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Wexop/react-console-notify)
+![Types](https://img.shields.io/badge/TypeScript-ready-blue.svg)
+![Bundle phobia](https://img.shields.io/bundlephobia/minzip/react-console-notify)
 
 **[Live demo here]([GitHub Repo stars](https://img.shields.io/github/stars/tonpseudo/react-console-notify))**
 

@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <>
-      <ConsoleNotifier containerHeight={ "100vh" }>
+      <ConsoleNotifier containerHeight={ "50vh" }>
         <div style={ {
           fontFamily: "Arial, sans-serif",
           padding: 30,
