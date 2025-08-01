@@ -113,7 +113,7 @@ export default function ConsoleNotifier( {
 
   return <>
     <div className={ "scrollable" } ref={ containerRef } style={ {
-      position: "fixed",
+      position: "sticky",
       left: position === "top-right" ? undefined : 20,
       right: position === "top-left" ? undefined : 20,
       top: 20,
