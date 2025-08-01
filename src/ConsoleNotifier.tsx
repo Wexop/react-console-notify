@@ -119,6 +119,7 @@ export default function ConsoleNotifier( {
       top: 20,
       maxHeight: containerHeight,
       overflowY: "scroll",
+      zIndex: 9999,
     } }>
       <div style={ {
         display: "flex",
