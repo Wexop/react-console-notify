@@ -25,7 +25,7 @@
     "dev": "vite",
     "build": "tsup src/index.ts --dts --format esm,cjs --external react,react-dom",
     "dev:example": "vite --config vite.config.ts",
-    "build:example": "vite build --config example/vite.config.ts && echo > example/dist/.nojekyll",
+    "build:example": "vite build --config example/vite.config.ts && rmdir /s /q docs && xcopy example\\\\dist docs /e /i && type nul > docs\\\\.nojekyll",
     "deploy": "npm run build:example && gh-pages -d example/dist"
   },
   "peerDependencies": {
