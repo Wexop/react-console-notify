@@ -127,7 +127,7 @@ export default function ConsoleNotifier( {
         alignItems: "center",
         flexDirection: "column",
         gap: 10,
-        marginBottom: 20,
+        marginBottom: logs.length ? 20 : 0,
       } }>
         { logs.map( ( log ) => {
           return (
