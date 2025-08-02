@@ -1,4 +1,4 @@
-# React Console Notifier
+# React Console Notify
 
 A small React package that shows real-time notifications for console logs (`log`, `warn`, `error`, etc.) during
 development.
@@ -13,7 +13,7 @@ you want to track.
 ![Types](https://img.shields.io/badge/TypeScript-ready-blue.svg)
 ![Bundle phobia](https://img.shields.io/bundlephobia/minzip/react-console-notify)
 
-**[Live demo here]([GitHub Repo stars](https://img.shields.io/github/stars/tonpseudo/react-console-notify))**
+**[Live demo here](https://wexop.github.io/react-console-notify/)**
 
 ![Notifications](https://i.imgur.com/hktWMla.png)
 
