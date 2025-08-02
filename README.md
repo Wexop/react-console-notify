@@ -6,6 +6,8 @@ development.
 It keeps the original console behavior, so logs still appear in the browser console. You can configure which log types
 you want to track.
 
+---
+
 ![npm](https://img.shields.io/npm/v/react-console-notify)
 ![npm downloads](https://img.shields.io/npm/dt/react-console-notify)
 ![license](https://img.shields.io/npm/l/react-console-notify)
@@ -13,9 +15,20 @@ you want to track.
 ![Types](https://img.shields.io/badge/TypeScript-ready-blue.svg)
 ![Bundle phobia](https://img.shields.io/bundlephobia/minzip/react-console-notify)
 
+---
+
+## Live Playground
+
 **[Live demo here](https://wexop.github.io/react-console-notify/)**
 
-![Notifications](https://i.imgur.com/hktWMla.png)
+Or on
+StackBlitz
+
+[![Try on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/vitejs-vite-4eltfurb?file=src%2FApp.tsx)
+
+---
+
+![Notifications](https://raw.githubusercontent.com/Wexop/react-console-notify/refs/heads/master/images/notifications.png)
 
 ## Installation
 
