@@ -39,7 +39,7 @@ export default function ConsoleNotifier( {
   },
   enabled = true,
   position = "top-right",
-  duration = 5000,
+  duration = 10000,
   backgroundOpacity = 0.5,
   containerHeight = 500
 }: ConsoleNotifierProps ) {

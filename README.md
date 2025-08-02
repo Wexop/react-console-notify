@@ -85,7 +85,7 @@ function App() {
 | `children`          | `ReactNode`                                   | `undefined`                                 | Optional children to render within the same tree.                                        |
 | `enabled`           | `boolean`                                     | `true`                                      | Enable notifications or not. This can be useful to disable on production environment.    |
 | `position`          | `"top-right"` \| `"top-left"`                 | `"top-right"`                               | Position of the notification container.                                                  |
-| `duration`          | `number \| null`                              | `5000` (ms)                                 | Time before a log disappears. Set to `null` for persistent logs.                         |
+| `duration`          | `number \| null`                              | `10000` (ms)                                | Time before a log disappears. Set to `null` for persistent logs.                         |
 | `backgroundOpacity` | `number` (`0` → transparent, `1` → solid)     | `0.5`                                       | Background transparency of the notification.                                             |
 | `containerHeight`   | `number \| string`                            | `500px`                                     | Max height of the notification container (can be px or `%`).                             |
 
