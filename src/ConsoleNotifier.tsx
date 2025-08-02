@@ -109,8 +109,6 @@ export default function ConsoleNotifier( {
     }
   }, [logs] )
 
-  if ( !enabled ) return null
-
   return <>
     <div className={ "scrollable" } ref={ containerRef } style={ {
       position: "fixed",
@@ -118,10 +116,11 @@ export default function ConsoleNotifier( {
       right: position === "top-left" ? undefined : 20,
       top: 20,
       maxHeight: containerHeight,
-      overflowY: "scroll",
+      overflowY: "auto",
       overflowX: "hidden",
       zIndex: 9999,
-      width: 500
+      width: 500,
+
     } }>
       <div style={ {
         display: "flex",

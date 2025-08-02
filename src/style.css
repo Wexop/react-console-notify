@@ -15,28 +15,28 @@
 
 .scrollable {
     scrollbar-width: thin;
-    scrollbar-color: unset;
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
 }
-
 
 .scrollable::-webkit-scrollbar {
     width: 8px;
-    height: 8px;
 }
 
 .scrollable::-webkit-scrollbar-track {
-    background: unset;
-    border-radius: 4px;
+    background: transparent;
 }
 
 .scrollable::-webkit-scrollbar-thumb {
-    background: unset;
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
 }
 
 .scrollable::-webkit-scrollbar-thumb:hover {
-    background: unset;
+    background-color: rgba(0, 0, 0, 0.4);
 }
+
 
 @keyframes shrink {
     from {
