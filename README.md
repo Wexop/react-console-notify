@@ -39,17 +39,23 @@ yarn add react-console-notify
 
 ## Usage
 
+To use react-console-notify in your React project, import the main component and the CSS file like this
+
+**Make sure to import the CSS file (index.css) so the notifications are styled correctly**
+
 ```typescript jsx
-import ConsoleNotifier from "react-console-notify";
+import ConsoleNotifier from "react-console-notify"
+import "react-console-notify/index.css"
 
 
 function App() {
   return (
     <>
-      <ConsoleNotifier enabled/>
-      {
-        /* your app content */
-      }
+      <ConsoleNotifier enabled>
+        {
+          /* your app content */
+        }
+      </ConsoleNotifier>
     </>
   );
 
