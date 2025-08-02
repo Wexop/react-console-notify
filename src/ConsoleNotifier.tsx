@@ -119,13 +119,16 @@ export default function ConsoleNotifier( {
       top: 20,
       maxHeight: containerHeight,
       overflowY: "scroll",
+      overflowX: "hidden",
       zIndex: 9999,
+      width: 500
     } }>
       <div style={ {
         display: "flex",
         alignItems: "center",
         flexDirection: "column",
-        gap: 10
+        gap: 10,
+        marginBottom: 20,
       } }>
         { logs.map( ( log ) => {
           return (
