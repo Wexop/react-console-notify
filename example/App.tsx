@@ -5,7 +5,7 @@ import ConsoleNotifier from "../src/ConsoleNotifier"
 export default function App() {
   const [enabled, setEnabled] = useState( true )
   const [position, setPosition] = useState<"top-right" | "top-left">( "top-right" )
-  const [duration, setDuration] = useState<number | null>( 5000 )
+  const [duration, setDuration] = useState<number | null>( 10000 )
   const [backgroundOpacity, setBackgroundOpacity] = useState<number>( 0.5 )
 
   const handleLog = () => console.log( "Console log!" )
@@ -21,7 +21,7 @@ export default function App() {
         position={ position }
         duration={ duration }
         backgroundOpacity={ backgroundOpacity }
-        containerHeight={ "50vh" }
+        containerHeight={ "80vh" }
       >
         <div
           style={ {
